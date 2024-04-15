@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Web Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div style="position: relative; width:100%">
+        <div style="position: fixed; top:0px; right: 0px; left:0px">
+            <header class="flex justify-between items-center 
+    gap-x-0 bg-[#232f3e] text-white m-auto w-full">
+                <div style="width: 60px; margin-left: 15px;">
+                    <img src="/images/awsoriginallogo.png" width="100%" alt="">
+                </div>
+                <nav style="display:flex; justify-content: space-around; 
+            align-items: center; gap: 10px; margin:15px; font-size: small;">
+                    <ul>Contact US</ul>
+                    <ul>Support</ul>
+                    <ul>English</ul>
+                    <ul>My Acount</ul>
+                    <ul>Sign In</ul>
+                    <ul>
+                        <button>Creat an AWS Account</button>
+                    </ul>
+                </nav>
+            </header>
+            <div style=" display: flex; justify-content: space-between; 
+           align-items: center; gap: 15px; font-size: small;
+        background-color: rgb(35, 47, 62); color: white;">
+                <ul class="ml-10">Products</ul>
+                <ul>Solutions</ul>
+                <ul>Pricing</ul>
+                <ul>Documentation</ul>
+                <ul>Learn</ul>
+                <ul>Partner Network</ul>
+                <ul>AWS Marketplace</ul>
+                <ul>customer Enablement</ul>
+                <ul>Events</ul>
+                <ul>Explore More</ul>
+                <ul class="mr-10">
+                    <img src="/images/Search-removebg-preview.png" width="50px" height="50px" alt="">
+                </ul>
+            </div>
+            <div style=" display: flex; justify-content: space-around;
+            align-items: center; gap: 20px; background-color:white; 
+            padding-left: 70px; padding-right:200px; border: .5px solid grey;">
+                <ul class="text-2xl">AWS Free Tier</ul>
+                <ul>Overview</ul>
+                <ul>Free Tier Category</ul>
+                <ul>How To Create an Account</ul>
+                <ul>Featured Offers for Business</ul>
+                <ul>FAQs</ul>
+                <ul>Terms and Conditions</ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- maindiv -->
+    <main class="mt-32">
+        <div class="bg-img">
+            <h1 style="font-size: 70px;">AWS Free Tier</h1>
+            <p>Gain free, hands-on experience with the AWS products and services</p>
+            <p style="color: rgb(0, 136, 255);"> <a href="">Learn more about AWS Free Tier</a></p>
+            <button style="background-color: rgb(246, 139, 8); 
+        padding: 5px 100px; border-radius: 20px; color:black;">Creat a Free Account</button>
+
+        </div>
+        <div class="border-2 border-slate-300 mt-10 mb-10 ml-20 w-5/6">
+            <div class="offer">
+                <h2 class="text-4xl">Three Types of Offers</h2>
+                <p>More than 100 AWS products are available on AWS Free Tier today.
+                    Three different types of free offers are available <br>
+                    depending on the product used. Click an icon below to explore our offers.</p>
+            </div>
+
+            <div class="flex">
+                <div class="timer">
+                    <p class="text-cyan-400">Free Trials</p>
+                    <img src="/images/timer.png" width="70%" height="70%" alt="">
+                    <p class="text-cyan-400"> <a href="">Click to Learn More</a></p>
+                </div>
+                <hr>
+                <div class="timer">
+                    <p class="text-cyan-400"> 12 Months Free </p>
+                    <img src="/images/schedule image.png" alt="">
+                    <p class="text-cyan-400"> <a href="">Click to Learn More</a></p>
+                </div>
+                <hr>
+                <div class="timer">
+                    <p class="text-cyan-400">Always Free</p>
+                    <img src="/images/free.png" alt="">
+                    <p class="text-cyan-400"> <a href="">Click to Learn More</a></p>
+                </div>
+            </div>
+
+        </div>
+        <h2 class="text-2xl ml-10">Explore Top Product Categories</h2>
+        <div class="product-category">
+            <div>
+                <img src="/images/compute.jpeg" width="30px" alt="">
+                <p>Compute</p>
+
+            </div>
+            <div>
+                <img src="/images/Database_32.png" width="30px" alt="">
+                <p>Database</p>
+            </div>
+            <div>
+                <img src="/images/storage.png" width="30px" alt="">
+                <p>Storage</p>
+            </div>
+            <div>
+                <img src="/images/container.png" width="30px" alt="">
+                <p>Container</p>
+            </div>
+            <div>
+                <img src="/images/webmobileapp.png" width="30px" alt="">
+                <p>Web & Mobile Apps</p>
+            </div>
+            <div>
+                <img src="/images/Server.png" width="30px" alt="">
+                <p>Serverless</p>
+            </div>
+            <div>
+                <img src="/images/Machineleraning.png" width="30px" alt="">
+                <p>Machine Learning</p>
+            </div>
+        </div>
+
+        <div class="flex flex-row mt-20">
+
+            <div class="tier-details basis-1/3 w-full max-w-30 max-h-24">
+                <p class="text-2xl ml-10">Free Tier details</p>
+                <p class="text-2xl ml-1">Filter by:</p>
+                <p class="text-cyan-400">Clear All Filters</p>
+                <p class="text-2xl m-auto">Tier Type</p>
+                <hr>
+                <ul>
+                    <li>Featured</li>
+                    <li>12 Months free</li>
+                    <li>Always free</li>
+                    <li>Trials</li>
+                </ul>
+                <p class="text-2xl ml-10">Products Categories</p>
+                <ul class="flex flex-col ml-20">
+                    <li>Analytics</li>
+                    <li>Application Integration</li>
+                    <li>Artifical Intelligence</li>
+                    <li>Business Productidity</li>
+                    <li>Compute</li>
+                    <li>Containers</li>
+                    <li>Customer Engagement</li>
+                    <li>Database</li>
+                    <li>Developer Tools</li>
+                    <li>End User Computing</li>
+                    <li>Front-End Web & Mobile</li>
+                    <li>Game Tech</li>
+                    <li>Internet of Things</li>
+                    <li>Machine Learning</li>
+                    <li>Management & Governance</li>
+                    <li>Media Services</li>
+                    <li>Migration & Transfer</li>
+                    <li>Networking & Content Delivery</li>
+                    <li>Robotics</li>
+                    <li>Security, Identity, & Compliance</li>
+                    <li>Serverless</li>
+                    <li>Storage</li>
+                </ul>
+            </div>
+
+
+
+            <div>
+                <div class="flex border border-grey-100 ml-5">
+                    <img src="/images/Search-removebg-preview.png" width="30px" alt="">
+                    <input type="text" name="text" id="" placeholder="Search free tier products">
+                </div>
+                <div class="flex items-center justify-between grow-1 gap-x-5 max-w-100 ml-5 mt-5">
+                    <div class="basis-2/3 grow-1 border border-grey-100 border-t-4 p-5 min-h-[500px]">
+                        <p class="text-2xl p-4">Compute</p>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">12 Months Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-3xl">Amazon EC2</p>
+                        <p class="text-cyan-600 text-4xl">750 Hours</p>
+                        <p class="text-slate-400 text-sm">Per Month</p> <br>
+                        <p>Resizable compute capacity in the Cloud. <br> <br>
+
+                            750 hours per month of Linux, RHEL,
+                            or SLES t2.micro or t3.micro instance dependent on region
+                        </p>
+                    </div>
+                    <div class="basis-2/3 grow-1 border border-grey-100 border-t-4 p-5 min-h-[500px]">
+                        <p class="text-2xl p-4">Storage</p>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">12 Months Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-4xl">Amazon S3</p>
+                        <p class="text-cyan-600 text-4xl">5GB</p>
+                        <p class="text-slate-400 text-sm">of standard storage</p> <br>
+                        <p>Secure, durable, and scalable object storage infrastructure</p> <br>
+                        <p>5 GB of Standard Storage</p>
+
+                    </div>
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[500px] mr-5">
+                        <p class="text-2xl p-4">Database</p>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">12 Months Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-4xl">Amazon RDS</p>
+                        <p class="text-4xl text-cyan-600">750 Hours</p> <br>
+                        <p class="text-slate-400 text-sm">per month of database usage (applicable DB engines)</p> <br>
+                        <p>Managed Relational Database Service for MySQL, PostgreSQL, MariaDB, or SQL Server.</p>
+                        <p>750 Hours of Amazon RDS Single-AZ db.t2.micro, db.t3.micro, and db.t4g.micro Instances usage
+                            running MySQL, MariaDB,
+                            PostgreSQL databases each month (applicable DB engines)</p>
+                    </div>
+
+                </div>
+
+
+                <div class="flex items-center justify-between grow-1 max-w-100 ml-5">
+
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[500px] mr-5 mt-5">
+                        <p class="text-2xl p-4">Database</p>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">Always Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-4xl">Amazon DynamoDB</p>
+                        <p class="text-4xl text-cyan-600">25 GB</p>
+                        <p class="text-slate-400 text-sm">of storage</p> <br>
+                        <p>Serverless, NoSQL, fully managed database with
+                            single-digit millisecond performance at any scale.</p>
+                    </div>
+
+
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[500px] mr-5 mt-5">
+                        <div class="flex items-center space-around ">
+                            <div>
+                                <p class="text-2xl p-4"> <span>Machine Learning</span></p>
+                            </div>
+                            <div class="text-red-500 text-sm ml-10">New</div>
+                        </div>
+
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">Free Trial</p>
+                        </div>
+                        <p class="text-cyan-400 text-4xl">Amazon SageMaker</p>
+                        <p class="text-4xl text-cyan-600">2 Months</p>
+                        <p class="text-slate-400 text-sm">free trial</p> <br>
+                        <p>Machine learning for every data scientist and developer.</p> <br>
+                        <p>250 hours per month of ml.t3.medium on Studio notebooks OR 250 hours per month of
+                            ml.t2.medium or ml.t3.medium on on-demand notebook instances</p>
+                    </div>
+
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[500px] mr-5 mt-5">
+                        <p class="text-2xl p-4">Compute</p>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400">Alwaays Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-4xl">AWS Lambda</p>
+                        <p class="text-4xl text-cyan-600">1 Million</p>
+                        <p class="text-slate-400 text-sm">free requests per month</p> <br>
+                        <p>Run code without thinking about servers or clusters</p> <br>
+                        <p>1,000,000 free requests per month</p>
+
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between grow-1 gap-x-5 max-w-100 ml-5">
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[600px] mr-5 mt-5">
+
+                        <div class="flex items-center justify-around ">
+                            <div>
+                                <p class="text-2xl p-4">Artificial Intelligence</p>
+                            </div>
+                            <div class="text-red-500 ml-20">New</div>
+
+                        </div>
+                        <hr>
+                        <div class="felx">
+
+                            <p class="text-slate-400 ml-20">Always Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-2xl">Amazon CodeWhisperer</p>
+                        <p class="text-cyan-500 text-4xl">Unlimited</p>
+                        <p class="text-slate-400 text-sm">code suggestions for Individual Tier</p> <br>
+                        <p>Your AI-powered productivity tool for the IDE and command line</p> <br>
+                        <p class="text-slate-400 text-sm">Free for individual use：</p> <br>
+                        <p>Unlimited code suggestions</p>
+                        <p>Includes Amazon Q chat in the IDE (Preview)</p> <br>
+                        <p>50 security scans per user per month</p>
+                        <p>Reference tracking</p>
+                        <p>Command line integration</p>
+                        <p>Authenticate with AWS Builder ID</p>
+
+                    </div>
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[600px] mr-5 mt-5">
+
+                        <div class="flex items-center justify-around ">
+                            <div>
+                                <p class="text-2xl p-4">ANALYTICS</p>
+                            </div>
+                            <div class="text-red-500 ml-20">New</div>
+
+                        </div>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400 text-sm ml-20">12 Months Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-2xl">Amazon OpenSearch Service</p>
+                        <p class="text-cyan-500 text-4xl">750 Hours</p>
+                        <p class="text-slate-400 text-sm">per month of a single-AZ t2.small.search or t3.small.search
+                            instance</p> <br>
+                        <p>Managed service that makes it easy to perform interactive log analytics,
+                            real-time application monitoring, website search, and more.</p> <br>
+                        <p class="text-slate-400 text-sm">750 hours per month of a single-AZ t2.small.search
+                            or t3.small.search instance</p> <br>
+
+                    </div>
+
+                    <div class="basis-2/3 border border-grey-100 border-t-4 p-5 min-h-[600px] mr-5 mt-5">
+
+                        <div class="flex items-center justify-around ">
+                            <div>
+                                <p class="text-2xl p-4">Mobile</p>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="flex gap-x-10">
+                            <p class="text-slate-400">Free Tier</p>
+                            <p class="text-slate-400 text-sm ml-20">Always Free</p>
+                        </div>
+                        <p class="text-cyan-400 text-2xl">Amazon SNS</p>
+                        <p class="text-cyan-500 text-4xl"> <strong>1</strong> Million</p>
+                        <p class="text-slate-400 text-sm">publishes</p> <br>
+                        <p>Fast, flexible, fully managed push messaging service.</p>
+                        <p>1,000,000 Publishes</p>
+                        <br>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="m-20">
+            <p class="text-xs"> <strong>12-Months Free:</strong> These free tier offers
+                are only available to new AWS customers, and are available
+                for 12 months following your AWS sign-up date. When your
+                12 month free usage term expires or if your application
+                use exceeds the tiers, you simply pay standard, pay-as-you-go
+                service rates (see each service page for full pricing details).
+                Restrictions apply; see offer terms for more details.</p> <br>
+
+            <p class="text-xs"> <strong>Always Free:</strong> These free tier offers do not automatically expire at the
+                end
+                of your 12 month AWS Free Tier
+                term, but are available to both existing and new AWS customers indefinitely.</p> <br>
+
+            <p class="text-xs"> <strong>Trials:</strong> These free tier offers are short term trial offers that start
+                from
+                the time of first usage begins.
+                Once the trial period expires you simply pay standard, pay-as-you-go service rates (see each service
+                page
+                for full pricing details).</p> <br>
+
+            <p class="text-xs">The Amazon AWS Free Tier applies to participating services across our <a href="#"
+                    class="text-cyan-400">global regions</a>. Your free usage under
+                the AWS Free Tier is calculated each month across all regions and automatically applied to your bill –
+                free
+                usage does not accumulate. The AWS Free Tier is not available in the <a href="#"
+                    class="text-cyan-400">AWS
+                    GovCloud (US)</a> Regions* at this
+                time.</p> <br>
+            <p class="text-xs">*The Lambda free tier is available in the AWS GovCloud (US) Region. See Lambda <a
+                    href="#" class="text-cyan-400">Pricing</a> for more details.</p>
+
+        </div>
+        <div class="m-20">
+            <h2 class="text-3xl">Learn more about AWS Free Tier Products</h2> <br>
+            <p class="text-xl">Browse through our collection of videos to learn more about the AWS Free Tier, and how to
+                setup and monitor your
+                account.
+            </p>
+        </div>
+        <div class="grid grid-cols-2 m-20">
+            <div class="m-5">
+                <iframe width="570" height="321" src="https://www.youtube.com/embed/pZLG8McSugQ"
+                    title="How can I avoid charges on my account when using AWS Free Tier services?" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>How can I avoid charges on my account when using AWS Free Tier services? (6:20)</figcaption>
+            </div>
+            <div class="m-5">
+                <iframe width="570" height="321" src="https://www.youtube.com/embed/QAcTKp3Ic-M"
+                    title="AWS re:Invent 2021 - Cost Optimization: Stretching your runway to go further" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>Cost Optimization: Stretching your runway to go further (57:46)</figcaption>
+            </div>
+            <div class="m-5">
+                <iframe width="570" height="321" src="https://www.youtube.com/embed/Ris23gKc7s0"
+                    title="How can I use AWS Budgets to track my spending and usage?" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>How can I use AWS Budgets to track my spending and usage? (5:16)</figcaption>
+            </div>
+            <div class="m-5">
+                <iframe width="570" height="321" src="https://www.youtube.com/embed/gv4m1fjuthU"
+                    title="An Introduction to AWS" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption>An Introduction to AWS (10:36)</figcaption>
+            </div>
+        </div>
+        <h2 class="text-4xl m-20">Get Started</h2>
+        <div class="flex items-center justify-between gap-x-10 m-11 p-10">
+            <div class="flex flex-col items-center justify-around m-5 gap-y-2">
+                <img src="/images/signup.png" width="100px" height="40px" alt="">
+                <p><a href="#" class="text-blue-600 text-2xl underline-offset-1">Sign up for a Free AWS account</a></p>
+                <p class="text-sm">Creating an AWS account is free and gives you immediate access to the AWS Free Tier
+                </p>
+            </div>
+            <div class="flex flex-col items-center justify-around m-5 gap-y-2">
+                <img src="/images/10minimage.png" width="100px" height="40px" alt="">
+                <p><a href="#" class="text-blue-600 text-2xl underline-offset-1">10 Minutes Tutorial</a></p>
+                <p class="text-sm">Explore and learn with easy to follow tutorials for multiple use cases</p>
+            </div>
+            <div class="flex flex-col items-center justify-around m-5 gap-y-2">
+                <img src="/images/buildupconsoleimage.png" width="100px" height="40px" alt="">
+                <p><a href="#" class="text-blue-600 text-2xl underline-offset-1">Start building in the console</a></p>
+                <p class="text-sm">Build your production solution quickly and easily once you're ready</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="flex basis-2 items-center justify-between grow-1 gap-x-5 m-20">
+            <a href="#" class="w-1/3 border-2 min-h-80">
+                <div class="flex flex-col">
+                    <h2 class="bg-[#001F3F] text-white text-2xl p-5">Get Started Resource Center</h2>
+                    <p class="p-5">
+                        Explore hands-on tutorials, getting started guides, and learn about cloud essentials.
+                    </p> <br>
+                    <p class="m-5">Start Learning »</p>
+                </div>
+            </a>
+
+
+            <a href="#" class="w-1/3 border-2 min-h-80">
+                <div class="flex flex-col">
+                    <h2 class="bg-[#001F3F] text-white text-2xl p-5">Developer Center</h2>
+                    <p class="p-5">
+                        The AWS Developer Center provides developmental tools and learning resources to take your
+                        development
+                        skills on AWS to the next level.
+                    </p> <br>
+                    <p class="m-5">Visit Developer Center »</p>
+                </div>
+            </a>
+
+            <a href="#" class="w-1/3 border-2 min-h-80">
+                <div class="flex flex-col">
+                    <h2 class="bg-[#001F3F] text-white text-2xl p-5">Join The Community</h2>
+                    <p class="p-5">
+                        Connect with a builder community gives you the support to grow your career and skills in the
+                        cloud.
+                    </p> <br>
+                    <p class="m-5">Learn More »</p>
+                </div>
+            </a>
+
+        </div>
+
+
+        <div class="flex items-center justify-around gap-x-2 grow-1 m-20">
+            <a href="#" class="flex flex-row justify-between gap-x-10 border min-h-40 w-1/2">
+                <div class="flex">
+                    <div class="p-5">
+                        <p class="font-bold text-xs text-gray-700">AWS IQ</p>
+                        <p class="mt-5 text-gray-700">Get on-demand help from AWS Certified third-party experts</p>
+                    </div>
+                    <div class="p-10">
+                        <img src="/images/IQimage.png" width="100" height="50" alt="">
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="#" class="flex flex-row justify-between gap-x-10 border min-h-40 w-1/2">
+                <div class="flex">
+                    <div class="p-5">
+                        <p class="font-bold text-xs text-gray-700">AWS Free Tier</p>
+                        <p class="mt-5 text-gray-700">Gain free, hands-on experience with AWS for 12 months</p>
+                    </div>
+                    <div class="p-10">
+                        <img src="/images/handimage.png" width="100" height="50" alt="">
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <a href="#">
+            <div class="flex items-center justify-around gap-x-10 m-20 min-h-40 border p-5">
+                <div class="w-2/3">
+                    <p class="font-bold text-xs text-gray-700 mb-10">Boost Your Cloud Skills</p>
+                    <p class="text-gray-700">
+                        Get free training on the AWS solutions most relevant to you, with 600+ courses for every role
+                        and
+                        skill
+                        level. Start learning »
+                    </p>
+                </div>
+                <div>
+                    <img src="/images/laptopimage.png" width="200" height="80" alt="">
+                </div>
+            </div>
+        </a>
+
+        <div class="flex items-center justify-around bg-[#242F3E] text-white gap-x-2">
+            <div class="ml-20 p-2 self-start">
+                <h2 class="text-xl mb-5">Learn About AWS</h2>
+                <ul class="text-sm">
+                    <li> <a href="#" target="_blank">What is AWS</a></li>
+                    <li> <a href="#" target="_blank">What is Cloud Company</a></li>
+                    <li> <a href="#" target="_blank">AWS Incluaion, Diversity& Equity</a></li>
+                    <li> <a href="#" target="_blank">What is DevOps</a></li>
+                    <li> <a href="#" target="_blank">What is container</a></li>
+                    <li> <a href="#" target="_blank">What is Data Lake</a></li>
+                    <li> <a href="#" target="_blank">What is Generative AI</a></li>
+                    <li> <a href="#" target="_blank">AWS Cloud Security</a></li>
+                    <li> <a href="#" target="_blank">What is new</a></li>
+                    <li> <a href="#" target="_blank">Blogs</a></li>
+                    <li> <a href="#" target="_blank">Press Release</a></li>
+                </ul>
+            </div>
+
+            <div class="self-start p-2">
+                <h2 class="text-xl mb-5">Resources for AWS</h2>
+                <ul class="text-sm">
+                    <li> <a href="#" target="_blank">Getting Started</a></li>
+                    <li> <a href="#" target="_blank">Training and Certifcation </a></li>
+                    <li> <a href="#" target="_blank">AWS Solutions Library</a></li>
+                    <li> <a href="#" target="_blank">Architecture Center</a></li>
+                    <li> <a href="#" target="_blank">Product and Technical FAQS</a></li>
+                    <li> <a href="#" target="_blank">Analyst reports</a></li>
+                    <li> <a href="#" target="_blank">AWS Partners</a></li>
+                </ul>
+            </div>
+
+            <div class="self-start p-2 ">
+                <h2 class="text-xl mb-5"> Developers on AWS</h2>
+                <ul class="text-sm">
+                    <li> <a href="#" target="_blank">Developers Center</a></li>
+                    <li> <a href="#" target="_blank">SKDs & Tools</a></li>
+                    <li> <a href="#" target="_blank">.Net on AWS</a></li>
+                    <li> <a href="#" target="_blank">Python on AWS</a></li>
+                    <li> <a href="#" target="_blank">Java On AWS</a></li>
+                    <li> <a href="#" target="_blank">PHP on AWS</a></li>
+                    <li> <a href="#" target="_blank">JavaScript on AWS</a> </li>
+                </ul>
+            </div>
+            <div class="self-start p-2">
+                <h2 class="text-2xl mb-5">Help</h2>
+                <ul class="text-sm">
+                    <li> <a href="#" target="_blank">Contact US</a></li>
+                    <li> <a href="#" target="_blank">Get Expert Help</a></li>
+                    <li> <a href="#" target="_blank">File a Support Ticket</a></li>
+                    <li> <a href="#" target="_blank">AWS re:Post</a></li>
+                    <li> <a href="#" target="_blank">Knowledge Center</a></li>
+                    <li> <a href="#" target="_blank">AWS Support Overview</a></li>
+                    <li> <a href="#" target="_blank">Legal</a></li>
+                    <li> <a href="#" target="_blank">AWS Creers</a></li>
+                </ul>
+            </div>
+            <div class="self-start justify-self-center w-1/3 mx-10 my-5">
+                <button class="bg-[#fb923c] px-10 py-2 rounded-3xl text-black">Creat a Free Account</button>
+                <div class="flex items-center justify-self-center gap-x-5 mx-2 mt-5">
+                    <a href="https://twitter.com/" target="_blank"><img src="/images/twitternewimg.png" width="20"
+                            height="10" alt=""></a>
+                    <a href="https://facebook.com/"> <img src="/images/facebook.png" width="20" height="10" alt=""></a>
+                    <a href="https://www.linkedin.com/"><img src="/images/linkedinnewimg.png" width="20" height="10"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="/images/instagram.jpeg" width="20" height="10"
+                            alt=""></a>
+                </div>
+                <div class="flex items-center justify-self-center gap-x-5 mx-2 mt-5">
+                    <a href="https://www.twitch.tv/"><img src="/images/twitch.png" width="20" height="10" alt=""></a>
+                    <a href="https://www.youtube.com/"><img src="/images/youtube.png" width="20" height="10" alt=""></a>
+                    <a href="https://podcasts.google.com/"><img src="/images/podcast.png" width="20" height="10"
+                            alt=""></a>
+                    <a href="https://pages.awscloud.com/"><img src="/images/email.png" width="20" height="10"
+                            alt=""></a>
+
+                </div>
+                <div class="w-3/5 mt-5">
+                    <p>Amazon is an Equal Opportunity Employer: <span class="italic">Minority / Women / Disability /
+                            Veteran
+                            / Gender Identity /
+                            Sexual Orientation / Age.</span></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="bg-[#242F3E] text-white p-5">
+            Language عربي |Bahasa |Indonesia| Deutsch| English| Español| Français| Italiano| Português| Tiếng| Việt|
+            Türkçe| Ρусский|
+            ไทย| 日本語| 한국어| 中文| (简体)| 中文| (繁體)
+        </div>
+    </main>
+    <footer class="ml-36 text-sm p-5 border-grey-100">
+        Privacy | Site Terms | Cookie Preferences | &copy 2024, Amazon Web Services, Inc. or its affiliates. All rights
+        reserved.
+    </footer>
+
+</body>
+
+</html>
